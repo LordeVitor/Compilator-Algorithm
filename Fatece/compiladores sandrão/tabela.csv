@@ -1,0 +1,11 @@
+﻿Algoritmo;Projeto sanders#;C#;C++;Java
+Inteiro;Completo;Int;Int;Int
+Flutuante;Quebrado;Float;Float;Float
+Caractere;Texto;String;String;String
+Boleano;Binario;Bool;Bool;Bool
+Escreva;Escrever;Console.WriteLine;cout;System.out.print
+Leia;Ler;Console.ReadLine;getline;Scanner
+Se;um;if;if;if
+Senão;outro;Else;Else;Else
+Para;repeticao;For;For;For
+Classes(+,-,#);conjObjetos(+,-,#);Class(+,-,#);Class(+,-,#);Class(+,-,#)

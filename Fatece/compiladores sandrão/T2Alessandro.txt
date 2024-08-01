@@ -1,0 +1,29 @@
+
+Lista[];  // Inicializa uma lista vazia
+
+Escrever("escreva seu nome: ");  // Solicita ao usuário para digitar seu nome
+Ler(nome);  // Lê o nome do usuário
+
+// Inicia um loop para ler 4 valores decimais do usuário
+repeticao(i=0; i<4; i++)
+{
+    Escrever("Digite sua nota, valor decimal");  // Solicita ao usuário para digitar um valor decimal
+    Ler(valor);  // Lê o valor decimal
+    Lista.add(valor);  // Adiciona o valor decimal à lista
+}
+
+// Calcula a média dos valores na lista
+Media = lista[0] + lista[1] + lista[2] + lista[3]; 
+Media = media / 4; 
+
+// Verifica se a média é maior ou igual a 5
+um(media >= 5)
+{
+    // Se a média for maior ou igual a 5, imprime uma mensagem de aprovação
+    Escrever(nome + " você passou de ano nengue e sua media é " + media);
+}
+outro
+{
+    // Se a média for menor que 5, imprime uma mensagem de reprovação
+    Escrever(nome + " você é burro nengue e sua media é " + media);
+}
